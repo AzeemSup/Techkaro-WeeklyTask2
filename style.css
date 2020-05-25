@@ -139,15 +139,41 @@ a:visited {
   color: #1a73e8;
 }
 
-.next_button{
+input[type="submit"] {
+    background-color: #1a73e8;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     height: 32px;
     width: 88px;
     border-radius: 4px;
     margin-left: 190px;
+    color: white;
 }
 
 .account{
     height: 240px;
     margin-left: 20px;
     margin-top: 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 270px;
+    margin-right: 270px;
+    font-size: smaller;
+}
+
+.last_links{
+    display: flex;
+    list-style: none;
+}
+
+.links a{
+    color: #757575;
+    padding-right: 20px;
+    font-weight: 600;
 }
